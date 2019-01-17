@@ -18,10 +18,10 @@ int main (void)
     while (repeatgiro1 <=6)
     {
       PORTB = B00000100;
-    	_delay_ms(600);
-    	PORTB = B00000010;
-    	_delay_ms(600);
-      repeatgiro1++;
+      _delay_ms(600);
+			PORTB = B00000010;
+			_delay_ms(600);
+			repeatgiro1++;
     }
     
     while (repeatgiro2 <=20)
