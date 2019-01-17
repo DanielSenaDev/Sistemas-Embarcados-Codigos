@@ -1,0 +1,31 @@
+int main (void)
+{ 
+ DDRD = B00111100;
+ 
+ while(1) {  
+ PORTD = B00011000;
+ _delay_ms(300); 
+
+ PORTD = B00000000;
+ _delay_ms(1000);
+   
+ PORTD = B00010100;
+ _delay_ms(3000); 
+
+ PORTD = B00100100;
+ _delay_ms(3000); 
+
+ PORTD = B00000000;
+ _delay_ms(1000);
+
+ PORTD = B00101000;
+ _delay_ms(3000); 
+ 
+ PORTD = B00100100;
+ _delay_ms(3000);
+
+ PORTD = B00010100;
+ _delay_ms(3000)
+
+ }
+}
