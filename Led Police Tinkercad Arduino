@@ -28,7 +28,7 @@ int main (void)
     {
     	PORTB = B00000100;
     	_delay_ms(100);
-   	 	PORTB = B00000010;
+      PORTB = B00000010;
     	_delay_ms(100);
       	repeatgiro2++;
     }
@@ -37,7 +37,7 @@ int main (void)
     {
     	PORTB = B00000100;
     	_delay_ms(100);
-   	 	PORTB = B00000000;
+      PORTB = B00000000;
     	_delay_ms(100);
       	repeatgiro3++;
     }
@@ -46,7 +46,7 @@ int main (void)
     {
     	PORTB = B00000010;
     	_delay_ms(100);
-   	 	PORTB = B00000000;
+      PORTB = B00000000;
     	_delay_ms(100);
       	repeatgiro4++;
     }
