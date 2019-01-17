@@ -17,11 +17,11 @@ int main (void)
     
     while (repeatgiro1 <=6)
     {
-      PORTB = B00000100;
-      _delay_ms(600);
-			PORTB = B00000010;
-			_delay_ms(600);
-			repeatgiro1++;
+      	PORTB = B00000100;
+    	_delay_ms(600);
+    	PORTB = B00000010;
+    	_delay_ms(600);
+      	repeatgiro1++;
     }
     
     while (repeatgiro2 <=20)
@@ -30,7 +30,7 @@ int main (void)
     	_delay_ms(100);
    	 	PORTB = B00000010;
     	_delay_ms(100);
-      repeatgiro2++;
+      	repeatgiro2++;
     }
     
     while (repeatgiro3 <=5)
@@ -39,7 +39,7 @@ int main (void)
     	_delay_ms(100);
    	 	PORTB = B00000000;
     	_delay_ms(100);
-      repeatgiro3++;
+      	repeatgiro3++;
     }
     
     while (repeatgiro4 <=5)
@@ -48,7 +48,7 @@ int main (void)
     	_delay_ms(100);
    	 	PORTB = B00000000;
     	_delay_ms(100);
-      repeatgiro4++;
+      	repeatgiro4++;
     }
      
   }
